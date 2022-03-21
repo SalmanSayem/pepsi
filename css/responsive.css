@@ -1,0 +1,210 @@
+@media (max-width: 575.98px) {
+    #main_sec {
+        padding: 15px;
+    }
+    #main_sec .header {
+        padding: 15px;
+    }
+    #main_sec .header ul li a {
+        font-size: 10px;
+        margin-left: 11px;
+        line-height: 1;
+    }
+    #main_sec .header .logo {
+        max-width: 28px;
+    }
+    #main_sec .content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+    #main_sec .content .text_box {
+        position: relative;
+        width: 85%;
+    }
+    #main_sec .content .text_box h2 {
+        font-size: 1.3em;
+        color: #ffffff;
+        line-height: 1;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    #main_sec .content .text_box p {
+        color: #ffffff;
+        font-size: 10px;
+    }
+    #main_sec .content .text_box a {
+        color: #111;
+        display: inline-block;
+        margin-top: 20px;
+        padding: 3px 8px;
+        background: #fff;
+        border-radius: 40px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    #main_sec .content .img_box {
+        width: 100%;
+        display: flex;
+        margin-right: 0px;
+        justify-content: start;
+        margin-top: 30px;
+    }
+    #main_sec .content .img_box .pepsi {
+        width: 152px;
+        transition: all linear .4s;
+    }
+    #main_sec .thumb li img {
+        max-width: 25px;
+    }
+    #main_sec .social {
+        right: 10px;
+    }
+    #main_sec .thumb li:hover{
+        transform: translateY(-10px);
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767.98px) {
+    #main_sec {
+        padding: 15px;
+    }
+    #main_sec .header {
+        padding: 15px;
+    }
+    #main_sec .header ul li a {
+        font-size: 13px;
+        margin-left: 20px;
+        line-height: 1;
+    }
+    #main_sec .header .logo {
+        max-width: 28px;
+    }
+    #main_sec .content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: row;
+    }
+    #main_sec .content .text_box {
+        position: relative;
+        width: 75%;
+    }
+    #main_sec .content .text_box h2 {
+        font-size: 1.3em;
+        color: #ffffff;
+        line-height: 1;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    #main_sec .content .text_box p {
+        color: #ffffff;
+        font-size: 10px;
+    }
+    #main_sec .content .text_box a {
+        color: #111;
+        display: inline-block;
+        margin-top: 20px;
+        padding: 3px 8px;
+        background: #fff;
+        border-radius: 40px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    #main_sec .content .img_box {
+        width: 25%;
+        display: flex;
+        margin-right: 37px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+    #main_sec .content .img_box .pepsi {
+        width: 89px;
+        transition: all linear .4s;
+    }
+    #main_sec .thumb li img {
+        max-width: 18px;
+    }
+    #main_sec .social {
+        right: 10px;
+    }
+    #main_sec .social a{
+        display: inline-block;
+        filter: invert(1);
+        margin: 0;
+        transform: scale(.4);
+    }
+    #main_sec .thumb li:hover{
+        transform: translateY(-10px);
+    }
+    #main_sec .thumb {
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+        transform: translateX(-50%);
+        display: flex;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991.98px) {
+    #main_sec .header {
+        padding: 20px 40px;
+    }
+    #main_sec .header ul li a {
+        color: #ffffff;
+        font-weight: 400;
+        display: inline-block;
+        margin-left: 40px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    #main_sec .content .text_box {
+        position: relative;
+        width: 50%;
+    }
+    #main_sec .content .img_box {
+        width: 50%;
+        display: flex;
+        margin-right: 30px;
+        justify-content: flex-end;
+    }
+    #main_sec .content .img_box .pepsi {
+        width: 90%;
+        transition: all linear .4s;
+    }
+    #main_sec {
+        padding: 45px;
+    }
+    #main_sec .content .text_box h2 {
+        font-size: 2.5em;
+    }
+    #main_sec .content .text_box p {
+        font-size: 14px;
+    }
+    #main_sec .content .text_box a {
+        padding: 7px 14px;
+        font-size: 14px;
+    }
+    #main_sec .social {
+        right: 15px;
+    }
+    #main_sec .thumb li {
+        margin: 0px 20px;
+    }
+    #main_sec .thumb li img {
+        max-width: 65px;
+    }
+}
+@media(min-width: 992px) and (max-width:1199.98px) {
+    
+}
